@@ -1,0 +1,43 @@
+/* login logo */
+.auth .brand-logo img {
+    width: 210px;
+}
+
+/* error message */
+.blockquote {
+    z-index: 99999;
+    position: fixed;
+    background-color: #ffffff;
+    width: 1000px;
+    margin: 10px 10px;
+}
+
+/* dashboard */
+ul li, ol li, dl li {
+    line-height: unset;
+}
+
+.form-group label {
+    font-size: 0.975rem !important;
+}
+
+select.form-control {
+    color: #495057;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    line-height: 1;
+    white-space: unset;
+}
+
+.table thead th {
+    vertical-align: middle;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.form-control, .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single .select2-search__field, .typeahead, .tt-query, .tt-hint {
+    border: 1px solid #b5b5b5 !important;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
